@@ -72,7 +72,7 @@ public class transfer extends HttpServlet{
                                 else
                                     //System.out.println("failed");
                                     {
-					 RequestDispatcher rd=  request.getRequestDispatcher("loginfailed.jsp");
+					 RequestDispatcher rd=  request.getRequestDispatcher("transferfailed.jsp");
 					 rd.forward(request, response);
                                     
 			}
